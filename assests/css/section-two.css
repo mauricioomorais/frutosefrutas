@@ -1,0 +1,48 @@
+section {
+    margin: 0 auto;
+    max-width: 1400px;
+}
+.banner-container {
+    position: relative;
+}
+.banner-img {
+    width: 100%;
+}
+.banner-titulo {
+    position: absolute;
+    top: 171px;
+    left: 140px;
+    color: #ffff;
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 81px;
+    line-height: 142px;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75);
+}
+.sobre-container {
+    
+}
+.sobre-subtitulo {
+    font-weight: 400;
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-size: 51px;
+    line-height: 90px;
+    text-align: center;
+    color: #8D0606;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.sobre-texto {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+    color: #8C8888;
+    width: 993px;
+    margin-left: 203.5px;
+}
