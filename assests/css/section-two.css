@@ -1,7 +1,3 @@
-section {
-    margin: 0 auto;
-    max-width: 1400px;
-}
 .banner-container {
     position: relative;
 }
@@ -9,10 +5,9 @@ section {
     width: 100%;
 }
 .banner-titulo {
-    position: absolute;
-    top: 171px;
-    left: 140px;
     color: #ffff;
+    position: absolute;
+    left: 140px;
     font-family: 'Pacifico';
     font-style: normal;
     font-weight: 400;
@@ -20,29 +15,58 @@ section {
     line-height: 142px;
     text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75);
-}
-.sobre-container {
-    
+    top: 171px;
 }
 .sobre-subtitulo {
+    color: #8D0606;
     font-weight: 400;
     font-family: 'Pacifico';
     font-style: normal;
     font-size: 51px;
     line-height: 90px;
-    text-align: center;
-    color: #8D0606;
-    margin-bottom: 30px;
     margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
 }
 .sobre-texto {
+    color: #8C8888;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
     font-size: 28px;
     line-height: 33px;
-    text-align: center;
-    color: #8C8888;
-    width: 993px;
     margin-left: 203.5px;
+    text-align: center;
+    width: 993px;
+}
+@media screen and (min-width: 0) {
+    .banner-titulo {
+        font-size: 35px;
+        top: 40px;
+        left: 90px;
+    }
+    .sobre-subtitulo {
+        font-size: 35px;
+    }
+    .sobre-texto {
+        margin-left: 75px;
+        font-size: 18px;
+        width: 500px;
+    }
+}
+
+@media screen and (min-width: 999px) {
+    .banner-titulo {
+        font-size: 81px;
+        left: 140px;
+        top: 171px;
+    }
+    .sobre-subtitulo {
+        font-size: 51px;
+    }
+    .sobre-texto {
+        font-size: 28px;
+        margin-left: 203.5px;
+        width: 993px;
+    }
 }

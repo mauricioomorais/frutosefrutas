@@ -11,5 +11,16 @@
     background: none;
     border: none;
 }
+section,
+footer {
+    margin: 0 auto;
+    max-width: 1400px;
+}
 
-
+.rodape {
+    background: #bfbfbf;
+    color: #fdfdfd;
+    text-align: right;
+    padding: 28px;
+    font-size: 20px;          
+}
